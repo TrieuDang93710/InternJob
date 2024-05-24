@@ -2,6 +2,7 @@ import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ErrorPage from "../router/ErrorPage";
 import Root from "../router/Root";
+import Console from "../screens/console/Console";
 
 const router = createBrowserRouter([
   {
@@ -11,7 +12,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/console",
-        element: <h1>Console Page</h1>,
+        element: <Console />,
       },
       {
         path: "/customer",
