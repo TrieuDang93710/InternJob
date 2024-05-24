@@ -1,0 +1,235 @@
+#detail {
+  float: left;
+  width: 80%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  animation: fadeIn 2s linear;
+  position: relative;
+}
+
+.title {
+  width: 95%;
+  height: 5%;
+  background: #fff;
+  padding: 10px;
+  border-radius: 6px;
+  border-left: 2px;
+  border-left-color: yellow;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title-text,
+.title-timer {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  color: black;
+  font-weight: 600;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+
+.button-top {
+  background: #5ff25f;
+  color: black;
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+.margin-left {
+  margin-left: 5px;
+}
+.aside-filter {
+  width: auto;
+  padding: 5px 0;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.filterable-table {
+  display: flex;
+  flex-direction: column;
+  width: 98%;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  padding: 10px;
+  top: 50px;
+}
+table thead th {
+  width: 10.6%;
+  padding: 5px 0;
+  background: #f1f1f1;
+}
+table tbody tr td {
+  width: 10.6%;
+  padding: 5px 0;
+}
+.checkbox,
+.action {
+  width: 8%;
+}
+.action {
+  padding: 4px 0;
+}
+.checkbox {
+  width: 5%;
+}
+table {
+  width: 100%;
+  height: auto;
+  background: #bcbcbc;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+
+/*/*================================/*/
+
+.section-input-group {
+  /* display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; */
+  float: left;
+  width: 98%;
+  position: absolute;
+  top: 100px;
+}
+.aside-input-group {
+  float: left;
+  width: 32%;
+  height: auto;
+}
+.form-input-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 10px;
+  width: 90%;
+}
+.label {
+  font-size: 13px;
+  font-weight: bold;
+  padding-bottom: 6px;
+}
+.input,
+.label-choose-file {
+  background: #f1f1f1;
+  height: 30px;
+  width: 90%;
+  border-radius: 6px;
+  border: none;
+  padding: 4px 10px;
+  color: #000;
+}
+.label-choose-file {
+  display: inline-block;
+  width: 60%;
+  background: #000;
+  color: #fff;
+  font-size: 14px;
+  font-family: sans-serif;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.select {
+  background: #f1f1f1;
+  height: 40px;
+  width: 98%;
+  border-radius: 6px;
+  border: none;
+  padding: 6px 10px;
+  color: #000;
+}
+.input[type="file"] {
+  /* display: none; */
+  background: #000;
+}
+.input[type="file"] #file-upload-button {
+  display: none;
+}
+
+/*---------------------------------*/
+/*css for phần tạo model*/
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+#model {
+  float: left;
+  width: 80%;
+  height: auto;
+  padding: 10px 0;
+  background: #4d4d4d96;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  animation: fadeIn 2s linear;
+}
+.main-model {
+  width: 40%;
+  height: 60vh;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 6px;
+  background: #fff;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  overflow-y: hidden;
+  position: relative;
+}
+.title-model {
+  width: 94%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  left: 10px;
+}
+.p-model {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-size: 14;
+  font-weight: bold;
+}
+.section-input-group-model {
+  position: absolute;
+  top: 50px;
+}
+.list-content {
+  position: absolute;
+  top: 130px;
+}
+.aside-input-group-model {
+  width: 100%;
+}
+.form-input-group-model {
+  width: 95%;
+}
+.input-model {
+  width: 95%;
+}
