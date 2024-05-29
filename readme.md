@@ -11,3 +11,17 @@
        - Với `const`, khi `omit type annotation`, `literal` type sẽ được sử dụng. Vì `const` chỉ nhận được một giá trị, và không thể thay đổi được
      - Tương tự như object, array cũng có behavior tương tự
      - Type Assertion
+  2. Type Alias vs Interface
+     - Type Alias: Là đặt tên lại cho kiểu dữ liệu
+       - Primitive type
+     - Interface: Đặt tên cho một object type
+     - Union type:
+       - "A union type is a type formed from two or more other types, representing values that may be any one of those types" source
+       - Tạm dịch kết hợp 2 hoặc nhiều kiểu dữ liệu lại với nhau để tạo ra một kiểu dữ liệu mới.
+         - Cho phép giá trị có thể chấp nhận hoặc là kiểu dữ liệu này, hoặc là kiểu dữ liệu kia.
+     - Intersection type:
+     - Add new props:
+       - Able to add new props to Interface, but not Type Alias
+     - Cách đặt tên type vs interface: - Use PascalCase instead of camelCase. Use Student instead of student - Don't use prefix I. Use Student instead of IStudent
+     - Nên dùng Interface hay Type:
+  3. Ðiều cần lưu ý khi làm việc với function
