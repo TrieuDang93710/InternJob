@@ -38,3 +38,13 @@
      - What: Tập hợp các giá trị cùng nhóm.
      - Why: Dễ dàng quản lý và truy xuất.
      - When: Sử dụng cho data một chiều, định nghĩa enum --> rồi sử dụng.
+  5. Generics
+     - Generics
+       - Hiểu nôm na: kiểu dữ liệu mà có nhận tham số và trả về kiểu dữ liệu tương ứng.
+       - Index signature là kiểu string --> các props khác phải compatible với type của index signature.
+     - keyof operator
+       - Lấy ra tất cả các keys trong một object
+     - typeof operator
+       - Lấy ra kiểu dữ liệu của biến
+     - Mapped types
+       - Dùng index signature để định nghĩa kiểu dữ liệu có props lấy từ kiểu dữ liệu khác.
