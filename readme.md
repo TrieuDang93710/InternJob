@@ -25,3 +25,13 @@
      - Cách đặt tên type vs interface: - Use PascalCase instead of camelCase. Use Student instead of student - Don't use prefix I. Use Student instead of IStudent
      - Nên dùng Interface hay Type:
   3. Ðiều cần lưu ý khi làm việc với function
+     - Default function return type:
+       - Base on return keyword, typescript can inference the return type.
+     - Explicit return type:
+     - Optional and default parameter:
+       - Add question mark ? to tell typescript this is an optional parameter.
+       - Parameter cannot have question mark and initializer.
+     - Function Overload: - Tham khảo: https://www.typescriptlang.org/docs/handbook/2/functions.html#function-overloads
+     - Other type: void and never:
+     - Destructuring parameter
+  4. Tất tần tật về Enum trong typescript
